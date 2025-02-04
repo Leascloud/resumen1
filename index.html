@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página de Amor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="greetingPage">
+        <h1>¡Hola, feliz día amor mi conejita!</h1>
+        <p>¿cual es nombre de mi juego favorito ?</p>
+        <p>las respuestas on en minusculas </p>
+        <input type="text" id="nicknameInput" placeholder="Escribe tu respuesta aquí">
+        <button onclick="checkPassword()">Siguiente</button>
+        <!-- Contenedor de la imagen que se mostrará si la respuesta es incorrecta -->
+        <div id="errorImage" style="display: none; margin-top: 20px;">
+            <img src="imagenes/dudu.jpg" alt="Respuesta incorrecta" width="200px">
+           
+
+        </div>
+             <img src="imagenes/3.jpg" class="image-preview">
+<p>¿Juega al Candy Crush Soda y cangela los cupones cada 20 niveles  ?</p>
+ <h3>lick de descarga :</h3>
+        <a href="https://play.google.com/store/apps/details?id=com.king.candycrushsodasaga&hl=es_MX8" target="_blank">
+  <img src="imagenes/candy.jpg" alt="Imagen para ver el video" width="300">
+</a>
+
+    </div>
+
+    <div class="container" id="countdownPage" style="display: none;">
+        <h2>LA GRAN SOPRESA LLEGAR EN :</h2>
+        <div id="countdown" class="countdown"></div>
+        <div class="content">
+   
+     <h3>Carta 1:</h3>
+
+<a href="carta.html">
+  <button>la carta de hoy </button>
+</a>
+
+<a href="galeria.html">
+  <button>galeria</button>
+</a>
+<a href="corazon.html">
+  <button>Misa latidos </button>
+</a>
+           
+            
+        </div>
+ <div class="content">
+            <h3>CUPONES :</h3>
+<p>¿Juega al Candy Crush Soda y cangela los cupones cada 20 niveles  ?</p>
+ <p>mandar captura de cuando cumplas cada 20 nivel y cangea cualquiera de lo cupones fecha limite de expiracion 15 febrero 2025 apurate npo queda tiempo </p>
+            <div class="image-gallery">
+                <img src="imagenes/im1.png" alt="Imagen 1" class="image-preview">
+              
+                <img src="imagenes/im2.jpg" class="image-preview">
+               
+                 <img src="imagenes/im3.jpg" class="image-preview">
+                 
+                <img src="imagenes/im4.jpg" class="image-preview">
+ 
+                
+        
+        </div>
+        <div class="content">
+            <h3>Video de YouTube:</h3>
+        <a href="https://www.youtube.com/watch?v=xCizlYwsO_Y" target="_blank">
+  <img src="imagenes/play.jpg" alt="Imagen para ver el video" width="300">
+</a>
+
+
+           <div id="videoContainer"></div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
