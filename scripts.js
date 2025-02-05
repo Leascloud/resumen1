@@ -1,5 +1,5 @@
 // La contraseña para acceder a la siguiente página
-const correctNickname = "resident evil"; // Cambia esto por el sobrenombre correcto
+const correctNickname = "stranger things"; // Cambia esto por el sobrenombre correcto
 
 // Función para verificar la contraseña
 function checkPassword() {
