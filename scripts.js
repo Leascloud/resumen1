@@ -1,5 +1,5 @@
 // La contraseña para acceder a la siguiente página
-const correctNickname = "stranger things"; // Cambia esto por el sobrenombre correcto
+const correctNickname = "huawei mate 40 pro"; // Cambia esto por el sobrenombre correcto
 
 // Función para verificar la contraseña
 function checkPassword() {
