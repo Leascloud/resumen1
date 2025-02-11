@@ -36,17 +36,7 @@ function startCountdown() {
         }
     }, 1000);
 }
-//funcion para elbton 
-function verificarContraseña() {
-    var contraseña = prompt("Introduce la contraseña:");
-    var correcta = "iron man"; // Cambia esto por la contraseña que desees
 
-    if (contraseña === correcta) {
-        window.location.href = "https://www.ejemplo.com"; // URL de la página a la que deseas redirigir
-    } else {
-        alert("Contraseña incorrecta.");
-    }
-}
 
 // Función para insertar un video de YouTube
 function embedVideo() {
