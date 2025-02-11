@@ -1,5 +1,5 @@
 // La contraseña para acceder a la siguiente página
-const correctNickname = "ya valio chetos"; // Cambia esto por el sobrenombre correcto
+const correctNickname = "iron man"; // Cambia esto por el sobrenombre correcto
 
 // Función para verificar la contraseña
 function checkPassword() {
